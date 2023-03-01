@@ -251,12 +251,14 @@
           null
         ]
       },
-      "/Users/source/Desktop/turing/tea_time/app/models/customer.rb": {
+      "/Users/source/Desktop/turing/tea_time/app/models/subscription.rb": {
         "lines": [
           1,
           1,
           1,
+          null,
           1,
+          null,
           null
         ]
       },
@@ -264,78 +266,6 @@
         "lines": [
           1,
           1,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/spec/models/customer_subscription_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/app/models/customer_subscription.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/spec/models/subscription_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/app/models/subscription.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/spec/models/subscription_tea_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          null,
-          null,
-          1,
-          2,
-          null,
           null
         ]
       },
@@ -349,26 +279,9 @@
           null
         ]
       },
-      "/Users/source/Desktop/turing/tea_time/spec/models/tea_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          2,
-          2,
-          2,
-          2,
-          null,
-          null
-        ]
-      },
       "/Users/source/Desktop/turing/tea_time/app/models/tea.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -376,6 +289,6 @@
         ]
       }
     },
-    "timestamp": 1677711540
+    "timestamp": 1677712139
   }
 }
