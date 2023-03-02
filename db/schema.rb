@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2023_03_01_222611) do
   enable_extension "plpgsql"
 
   create_table "customer_subscriptions", force: :cascade do |t|
-    t.string "status"
+    t.string "status", default: "active"
     t.bigint "customer_id"
     t.bigint "subscription_id"
     t.index ["customer_id"], name: "index_customer_subscriptions_on_customer_id"
@@ -33,7 +33,6 @@ ActiveRecord::Schema.define(version: 2023_03_01_222611) do
   end
 
   create_table "subscription_teas", force: :cascade do |t|
-    t.float "price"
     t.bigint "tea_id"
     t.bigint "subscription_id"
     t.index ["subscription_id"], name: "index_subscription_teas_on_subscription_id"
@@ -49,6 +48,7 @@ ActiveRecord::Schema.define(version: 2023_03_01_222611) do
 
   create_table "teas", force: :cascade do |t|
     t.string "title"
+    t.float "price"
     t.string "description"
     t.float "temperature_fahrenheit"
     t.integer "brew_time_seconds"
