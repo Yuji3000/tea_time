@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  post '/api/v1/customer/:customer_id/subscription', to: 'api/v1/subscription#create'
+  post '/api/v1/customer/:customer_id/subscription/:subscription_id', to: 'api/v1/subscription#create'
+  patch '/api/v1/customer/:customer_id/subscription/:subscription_id/cancel', to: 'api/v1/subscription#cancel'
+  get '/api/v1/customer/:customer_id/subscription', to: 'api/v1/subscription#index'
 end
