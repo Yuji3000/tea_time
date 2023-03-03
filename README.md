@@ -29,10 +29,9 @@ Tea Time is a solo built api that can be used for subscribing users(customers) t
 1. Clone the respository
 2. cd into the root directory
 3. Install gem packages: `bundle install`
-4. Setup the database: `rails db:{drop,create,migrate}`
-6. Run `rails c` and then  and. You should have 3 and 30 respectively
-7. You may run the RSpec test suite locally with `bundle exec rspec`
-8. Run `rails s` to use the localhost:3001 server
+4. Setup the database: `rails db:{drop,create,migrate,seed}`
+5. You may run the RSpec test suite locally with `bundle exec rspec`
+6. Run `rails s` to use the localhost:3001 server
 
 <br>
 
@@ -42,9 +41,9 @@ Tea Time is a solo built api that can be used for subscribing users(customers) t
 
 - ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white) **2.7.2**
 - ![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white) **5.2.8.1**
-- <img src="images/rspec_badge.png" alt="RSpec" height="30"> **3.12.0**
+- <img src="app/images/rspec_badge.png" alt="RSpec" height="30"> **3.12.0**
 - ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-- <img src="images/postman_badge.png" alt="Postman" height="30">
+- <img src="app/images/postman_badge.png" alt="Postman" height="30">
 
 
 ## Gems Used
@@ -60,7 +59,7 @@ Tea Time is a solo built api that can be used for subscribing users(customers) t
 
 # Database Schema
 
-<img src="images/schema_design.png" alt="db schema" class="center" width="500" height=auto>
+![Schema Design](app/images/schema_design.png)
 
 <br>
 
@@ -110,5 +109,36 @@ Request Body:
 }
 ```
 
+## All subscriptions of a user
+
+Request: <br>
+```
+GET /api/v1/customers/1/subscriptions
+```
+Example:
+
+Request Body:
+```json 
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "subscription",
+            "attributes": {
+                "title": "once a month",
+                "frequency_weeks": 4
+            }
+        },
+        {
+            "id": "2",
+            "type": "subscription",
+            "attributes": {
+                "title": "twice a month",
+                "frequency_weeks": 2
+            }
+        }
+    ]
+}
+```
 
 

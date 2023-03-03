@@ -12,7 +12,7 @@ RSpec.describe "showing all of a customers descriptions" do
     customer_subscription2 = CustomerSubscription.create!(status: "cancelled", customer_id: customer.id, subscription_id: subscription2.id)
     subscription_tea1 = SubscriptionTea.create!(tea_id: tea1.id, subscription_id: subscription1.id)
 
-    get '/api/v1/customer/1/subscription'
+    get '/api/v1/customers/1/subscriptions'
 
     response_body = JSON.parse(response.body, symbolize_names: true)
 

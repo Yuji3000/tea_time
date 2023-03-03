@@ -9,7 +9,7 @@ RSpec.describe "cancel a subscription" do
     customer_subscription1 = CustomerSubscription.create!(status: "active", customer_id: customer.id, subscription_id: subscription1.id)
     subscription_tea1 = SubscriptionTea.create!(tea_id: tea1.id, subscription_id: subscription1.id)
 
-    patch "/api/v1/customer/1/subscription/1/cancel"
+    patch "/api/v1/customers/1/subscriptions/1/cancel"
 
     response_body = JSON.parse(response.body, symbolize_names: true)
     expect(response).to be_successful

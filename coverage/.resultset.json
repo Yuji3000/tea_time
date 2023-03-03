@@ -271,23 +271,19 @@
           null
         ]
       },
-      "/Users/source/Desktop/turing/tea_time/app/models/subscription.rb": {
+      "/Users/source/Desktop/turing/tea_time/spec/models/customer_subscription_spec.rb": {
         "lines": [
-          1,
-          1,
           1,
           null,
           1,
+          1,
+          2,
+          2,
           null,
-          null
-        ]
-      },
-      "/Users/source/Desktop/turing/tea_time/app/models/tea.rb": {
-        "lines": [
+          null,
           1,
-          1,
-          1,
-          1,
+          2,
+          null,
           null
         ]
       },
@@ -304,8 +300,181 @@
           null
         ]
       },
+      "/Users/source/Desktop/turing/tea_time/spec/models/subscription_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/app/models/subscription.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/models/subscription_tea_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/source/Desktop/turing/tea_time/app/models/subscription_tea.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/models/tea_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/app/models/tea.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/poros/subscriptions_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/requests/all_subscriptions_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/requests/cancel_subscription_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/source/Desktop/turing/tea_time/spec/requests/subscribe_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
           1,
           1,
           1,
@@ -319,19 +488,9 @@
           1,
           null,
           1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          null,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          0,
+          2,
+          2,
+          2,
           null,
           0,
           null,
@@ -340,8 +499,19 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -362,6 +532,6 @@
         ]
       }
     },
-    "timestamp": 1677803983
+    "timestamp": 1677805483
   }
 }

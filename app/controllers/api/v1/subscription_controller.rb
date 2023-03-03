@@ -23,7 +23,8 @@ class Api::V1::SubscriptionController < ApplicationController
   def index
     customer = Customer.find(params[:customer_id])
     customer.subscriptions
-
-    render json: SubscriptionSerializer.new(customer.subscriptions), status: 201
+    if customer.subscriptions.present?
+      render json: SubscriptionSerializer.new(customer.subscriptions), status: 201
+    end
   end
 end
