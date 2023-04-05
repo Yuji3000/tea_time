@@ -17,7 +17,7 @@
 
 # Project Overview
 
-Tea Time is a solo built api that can be used for subscribing users(customers) to various teas. This Api was desgined to be as dynamic as possible. There can be various "subscriptions". Subscriptions can vary in frequency, and other factors could apply in future iterations for discounts, specials etc. 
+Tea Time is a solo built api that can be used for subscribing users(customers) to various teas. This Api was desgined to be as dynamic as possible. There can be various "subscriptions". Subscriptions can vary in frequency, and other factors could apply in future iterations for discounts, specials etc. Link to this assignment https://mod4.turing.edu/projects/take_home/take_home_be
 
 
 
