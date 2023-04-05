@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 2023_04_05_185051) do
     t.string "title"
     t.string "description"
     t.float "temperature_f"
-    t.float "brew_time_min"
+    t.float "brew_time_seconds"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
